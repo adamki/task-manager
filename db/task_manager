@@ -1,15 +1,3 @@
 ---
-tasks:
-- id: 1
-  title: get haircut
-  description: 859-485-3855
-- id: 2
-  title: repair car
-  description: take to moe's auto repair shop
-- id: 3
-  title: tie shoes
-  description: NOW
-- id: 4
-  title: reboot
-  description: computer
-total: 4
+tasks: []
+total: 0
