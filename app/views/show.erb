@@ -1,5 +1,11 @@
-<a href="/tasks">Task Index</a>
-
-<h1><%= @task.title %></h1>
-
-<p><%= @task.description %></p>
+<div class = "container">
+  <div class="row">
+    <a href="/tasks" class = 'glyphicon glyphicon-home'></a>
+    <div class="page-header">
+      <h1><%= @task.title %></h1>
+    </div>
+    <div class="well well-sm">
+      <p><%= @task.description %></p>
+    </div>
+  </div>
+</div>

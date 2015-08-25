@@ -1,6 +1,14 @@
-
-<h1>All Tasks</h1>
-
-<% @tasks.each do |task| %>
-  <h3><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
-<% end %>
+<div class = "container">
+  <div class="row">
+    <h1>All Tasks</h1>
+      <ul class="list-group">
+      <% @tasks.each do |task| %>
+       <li class="list-group-item"><%= task.id %>:
+        <a href="/tasks/<%= task.id %>">
+          <%= task.title %>
+        </a>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

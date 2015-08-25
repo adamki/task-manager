@@ -1,10 +1,17 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <div class="container">
   <div class="well well-sm">
     <form action ="/tasks" method ="post">
-      <p>Enter a new task:</p>
-      <input type='text' name='task[title]'/><br>
-      <textarea name='task[description]'></textarea><br>
+        <p>Enter a new task:</p>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1">Task</span>
+          <input type="text" class="form-control" name="task[title]" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1">Description</span>
+          <input type="text" class="form-control" name="task[description]" aria-describedby="basic-addon1">
+        </div>
+
       <input type='submit'>
     </form>
   </div>

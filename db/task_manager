@@ -6,4 +6,10 @@ tasks:
 - id: 2
   title: repair car
   description: take to moe's auto repair shop
-total: 2
+- id: 3
+  title: tie shoes
+  description: NOW
+- id: 4
+  title: reboot
+  description: computer
+total: 4
