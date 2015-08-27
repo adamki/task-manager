@@ -1,0 +1,31 @@
+1. ADDING A NEW TASK TO TM
+
+As a user,
+When I visit the home page,
+And I click on 'New Task'
+And I click fill out the 'new task' input fields
+and I click Submit
+then a new task is added
+
+2. Signing up for a new account
+As a user,
+When I visit localhost:9393
+and I click 'sign up'
+and I fill out my information
+and I click sumbit
+Then a confirmation page is given/email sent
+
+3. Logging into account
+As a user,
+When I visit 'localhost:9393'
+and I click on 'sign in'
+and I fill out my UN/PW
+and I click submit
+then a confirmation page is shown and I am taken to the dashboard.
+
+4. Viewing only the tasks associated with my account
+As a user,
+When I visit 'localhost:9393'
+and I click on my tasks
+(may be asked to log in)
+Then I am shown my current tasks dashboard

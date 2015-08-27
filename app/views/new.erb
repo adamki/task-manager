@@ -2,17 +2,17 @@
   <div class="well well-sm">
     <form action ="/tasks" method ="post">
         <p>Enter a new task:</p>
-        <div class="input-group">
+        <div class="input-group" id="task">
           <span class="input-group-addon" id="basic-addon1">Task</span>
           <input type="text" class="form-control" name="task[title]" aria-describedby="basic-addon1">
         </div>
 
-        <div class="input-group">
+        <div class="input-group" id ="description">
           <span class="input-group-addon" id="basic-addon1">Description</span>
           <input type="text" class="form-control" name="task[description]" aria-describedby="basic-addon1">
         </div>
 
-      <input type='submit'>
+      <input type='submit' value="Submit">
     </form>
   </div>
 </div>
