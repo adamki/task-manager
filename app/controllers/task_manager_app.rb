@@ -9,8 +9,8 @@ class TaskManagerApp < Sinatra::Base
   end
 
   get '/tasks' do
-    @tasks = TaskManager.all  #instance variable w/ 3 strings
-    erb :index                            #render index.erb
+    @tasks = TaskManager.all
+    erb :index
   end
 
   get '/tasks/:id/edit' do |id|
